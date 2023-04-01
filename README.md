@@ -162,6 +162,12 @@ git branch
 git switch BranchName
 ```
 
+### to merge branch
+
+```bash
+git merge -m "mergeMassage" mergedBranchName
+```
+
 ### add new remote
 
 ```bash
