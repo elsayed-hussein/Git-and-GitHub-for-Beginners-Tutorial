@@ -162,10 +162,22 @@ git branch
 git switch BranchName
 ```
 
+### to switch to branch and create it
+
+```bash
+git switch -c BranchName
+```
+
 ### to merge branch
 
 ```bash
 git merge -m "mergeMassage" mergedBranchName
+```
+
+### to delete branch
+
+```bash
+git branch -d BranchName
 ```
 
 ### add new remote
@@ -190,4 +202,29 @@ or to clone repository in current directory
 
 ```bash
 git clone https://github.com/username/projectname.git .
+```
+
+### to push repository in github
+
+```bash
+git push -u origin main
+```
+
+or to push all branch's
+
+```bash
+git push --all
+```
+
+### to pull repository from github
+
+```bash
+git pull
+```
+
+Or
+
+```bash
+git fetch
+git merge
 ```
