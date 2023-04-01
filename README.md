@@ -114,6 +114,12 @@ OR to skip staging and commit all file
 git commit -a -m "the message"
 ```
 
+### to change the commit message
+
+```bash
+git commit -m "the new message" -- amend
+```
+
 ### to review the commits
 
 ```bash
@@ -124,6 +130,36 @@ Or in one line
 
 ```bash
 git log --oneline
+```
+
+or to see in detail's
+
+```bash
+git log -p
+```
+
+### to reset the commit
+
+```bash
+git reset theGitHashTag
+```
+
+### create new branch
+
+```bash
+git branch NewBranchName
+```
+
+### to show all branch's
+
+```bash
+git branch
+```
+
+### to switch to branch
+
+```bash
+git switch BranchName
 ```
 
 ### add new remote
